@@ -28,7 +28,7 @@ int main()
     
     español.SetEspanol("Hola");
     std::cout << español.GetEspanol() << std::endl;
-    std::cout << "Hola Munda" << std::endl;
+    std::cout << "Hello Munda" << std::endl;
     
     
     return 0;
