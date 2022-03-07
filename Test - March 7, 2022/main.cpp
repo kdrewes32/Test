@@ -26,7 +26,7 @@ int main()
 {
     //Hola Munda
     
-    español.SetEspanol("Hola");
+    español.SetEspanol("Hi");
     std::cout << español.GetEspanol() << std::endl;
     std::cout << "Hello Munda" << std::endl;
     
