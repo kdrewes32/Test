@@ -5,17 +5,17 @@
 class Español
 {
 private:
-    std::string spanish;
+    std::string english;
 
 public:
-    void SetEspanol(std::string spanish)
+    void SetEspanol(std::string english)
     {
-        this -> spanish = spanish;
+        this -> english = english;
     }
     
     std::string GetEspanol()
     {
-        return spanish;
+        return english;
     }
     
     
