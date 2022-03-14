@@ -2,34 +2,33 @@
 //  Test - March 7, 2022
 #include <iostream>
 
-class Español
+class English
 {
 private:
     std::string english;
 
 public:
-    void SetEspanol(std::string english)
+    void SetEnglish(std::string english)
     {
         this -> english = english;
     }
     
-    std::string GetEspanol()
+    std::string GetEnglish()
     {
         return english;
     }
     
     
-}español;
+}english;
 
 
 int main()
 {
-    //Hola Munda
+    //Hi World
     
-    español.SetEspanol("Hola");
-    std::cout << español.GetEspanol() << std::endl;
-    std::cout << "Hello Munda" << std::endl;
-    
+    english.SetEnglish("Hi");
+    std::cout << english.GetEnglish() << std::endl;
+    std::cout << "Hi World" << std::endl;
     
     return 0;
 }
